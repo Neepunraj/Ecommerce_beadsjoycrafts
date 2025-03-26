@@ -5,7 +5,7 @@ const configOptions = {
 }
 
 const connecttoDB = async () => {
-    const connectionUrl = 'mongodb+srv://neepushre97:Q1LRrDcJTM8V4nC9@cluster0.8qzxx.mongodb.net/'
+    const connectionUrl = ''
 
     await mongoose.connect(connectionUrl)
         .then(() => console.log('Ecomeerce Database Connected Successfully'))
