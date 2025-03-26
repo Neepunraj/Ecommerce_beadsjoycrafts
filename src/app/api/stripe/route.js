@@ -3,9 +3,7 @@ import { NextResponse } from "next/server";
 
 
 export const dynamic = "force-dynamic";
-const stripe = require('stripe')(
-    "sk_test_51PqEEhRogN8CI6sDKCbDE7lb8k0lwI0VaFBcFkOfVuVLUTMaJWVWwARR1T9Gmz1krNRQeFWq5DZNxyMBEZwcgdDq00X0nPLbEV"
-)
+const stripe = require('stripe')("")
 
 export async function POST(req) {
     try {
