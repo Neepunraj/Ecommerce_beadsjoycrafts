@@ -233,12 +233,12 @@ export const AddnewAddressFormControls =[
 ]
 
 export const firebaseConfig = {
-  apiKey: "AIzaSyDBSmsnphfa-fRsmYzvEm1meuDQ4-Rp_Ko",
+  apiKey: "",
   authDomain: "next-js-ecommerce-7404c.firebaseapp.com",
   projectId: "next-js-ecommerce-7404c",
   storageBucket: "next-js-ecommerce-7404c.appspot.com",
-  messagingSenderId: "852369128878",
-  appId: "1:852369128878:web:4879f7b557f156fc33dc3f",
-  measurementId: "G-1ZQMG041MG"
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 };
 export const firebaseStorageURL= 'gs://next-js-ecommerce-7404c.appspot.com'
